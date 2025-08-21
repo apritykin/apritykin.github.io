@@ -1,0 +1,97 @@
+{
+    "basic": {
+        "name": "Andrew Pritykin",
+        "job": "Senior Engineering & Product Leader",
+        "summary": "Transforming complex challenges into scalable solutions through innovative technology. Driven by a passion for building high-performing teams and delivering impactful products.",
+        "cv_file_name": "paul_cv.pdf"
+    },
+    "experiences": [
+        {
+            "title": "Senior Engineering Manager, Media Performance Development Engineering",
+            "sub_title": "The Walt Disney Company",
+            "years": "Apr 2019 - Present",
+            "details": "Led the architecture and development of a enterprise-grade hardware and software platform for agnostic OTT remote device control and automation, supporting scripted testing and operational workflows across major streaming services like Disney+, Hulu, and ESPN+.\nIntegrated advanced computer vision into the automation pipeline to enable platform-agnostic test execution and visual Quality of Experience (QoE) validation using high-fidelity UVC video capture. Delivered a vision-based automation driver that standardizes remote interactions across Roku, FireTV, AppleTV, and more, eliminating reliance on native SDKs or platform-specific tools.\nDeveloped a custom large language model (LLM) to auto-generate test plans and validations, embedded into the orchestration layer to enhance test throughput and reproducibility across a broad device fleet.\nOversaw the Certification Management Program for domestic and international partners, ensuring compliance with Disney's standards and seamless integration across multiple platforms.\nChampioned cross-functional initiatives to scale device automation coverage, unify internal toolchains, and reduce operational friction among partner teams, driving innovation and efficiency across the organization."
+        },
+        {
+            "title": "Engineering Lead, Video Platform",
+            "sub_title": "Activision Blizzard",
+            "years": "Jun 2016 - Apr 2019",
+            "details": "Oversaw the migration of the MLG video platform to integrate with Blizzard's Live/VOD infrastructure. Led the content distribution strategy for major Esports and Entertainment events, including Overwatch League, Call of Duty World League, and Blizzcon. Enhanced the broadcast pipeline through the implementation of AWS Elemental technologies."
+        },
+        {
+            "title": "Engineering Lead, Live Video Platform",
+            "sub_title": "Major League Gaming",
+            "years": "Jan 2014 - Jun 2016",
+            "details": "Lead the architecture and development of a robust streaming platform for MLG Esport events and content creators. Establish high-quality broadcasts to millions of viewers worldwide, both on-site and remote. Improved platform reliability, scalability and video distribution. Maintained custom hardware encoding solutions for optimal encoding performance and video quality.\nDeveloped automation frameworks for regression testing and CI/CD pipelines. Managed test suites, documented defects, and contributed insights to improve QA and development within an agile team."
+        },
+        {
+            "title": "Professional Services Engineer",
+            "sub_title": "LiveU",
+            "years": "Apr 2012 - Dec 2014",
+            "details": "Developed custom web applications and tools for small businesses and startups. Built responsive websites, e-commerce platforms, and content management systems using modern web technologies. Collaborated with clients to understand their requirements and deliver tailored solutions that met their business needs."
+        }
+    ],
+    "education": [
+        {
+            "title": "Master of Science - Computer Science",
+            "sub_title": "New Jersey Institute of Technology",
+            "years": "Sep 2015 - May 2016"
+        },
+        {
+            "title": "Bachelor of Science - Electrical and Computer Engineering Technology",
+            "sub_title": "New Jersey Institute of Technology",
+            "years": "Sep 2011 - May 2013",
+            "details": "Activities and societies: IEEE Student Chapter Member, Electrical Computer Engineering Club NJIT, HackNY Student Hackathon, Spring 2012, Open Hardware Summit 2012, TEDxNJIT"
+        },
+        {
+            "title": "Associate of Science - Electrical and Computer Engineering Technology",
+            "sub_title": "Middlesex College",
+            "years": "Sep 2008 - May 2011",
+            "details": "Activities and societies: Tech-MCC officer, HackNY Student Hackathon, Spring 2011, HackRU Student Hackathon, Spring 2011, Open Hardware Summit 2011"
+        }
+    ],
+    "projects": [
+        {
+            "imageUrl": "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=764&auto=format&fit=crop",
+            "title": "hello.com",
+            "type": "Website",
+            "link": "https://github.com/wasutz/astro-resume-theme"
+        },
+        {
+            "imageUrl": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=764&auto=format&fit=crop",
+            "title": "Paul UI kit collections",
+            "type": "UI Kit",
+            "link": "https://github.com/wasutz/astro-resume-theme"
+        },
+        {
+            "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=764&auto=format&fit=crop",
+            "title": "paul.com",
+            "type": "Website",
+            "link": "https://github.com/wasutz/astro-resume-theme"
+        }
+    ],
+    "menuItems": [
+        {
+            "name": "About",
+            "link": "/"
+        },
+        {
+            "name": "Blog",
+            "link": "/blogs"
+        }
+    ],
+    "socialLinks": [
+        {
+            "iconName": "Github",
+            "link": "https://github.com/wasutz/astro-resume-theme"
+        },
+        {
+            "iconName": "Facebook",
+            "link": "https://facebook.com"
+        },
+        {
+            "iconName": "Instagram",
+            "link": "https://instagram.com"
+        }
+    ]
+}
