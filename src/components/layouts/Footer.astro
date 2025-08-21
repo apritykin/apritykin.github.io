@@ -30,7 +30,7 @@ import { menuItems, socialLinks } from "../../config/cv.json";
                         <li>
                             <a href={social.link} title={social.iconName} target="_blank" rel="noopener noreferrer"
                                class="block transition-all duration-300 hover:text-offset focus:text-offset">
-                                <Icon name={social.iconName} />
+                                <i class={`fab fa-${social.iconName.toLowerCase()}`}></i>
                             </a>
                         </li>
                     ))}

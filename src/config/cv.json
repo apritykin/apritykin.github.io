@@ -99,12 +99,8 @@
             "link": "https://github.com/wasutz/astro-resume-theme"
         },
         {
-            "iconName": "Facebook",
+            "iconName": "LinkedIn",
             "link": "https://facebook.com"
-        },
-        {
-            "iconName": "Instagram",
-            "link": "https://instagram.com"
         }
     ]
 }
