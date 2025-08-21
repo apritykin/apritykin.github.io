@@ -1,5 +1,7 @@
 ---
 const { title, sub_title, years, details } = Astro.props;
+// Convert \n to <br /> for HTML rendering
+const detailsHtml = details ? details.replace(/\n/g, '<br />') : '';
 ---
 
 <li class="p-5 bg-background-offset shadow-lg rounded-xl border border-default">
@@ -10,5 +12,5 @@ const { title, sub_title, years, details } = Astro.props;
     </div>
     <p class="text-sm text-offset sm:text-right whitespace-nowrap">{years}</p>
   </div>
-  <p class="mt-4 text-offset leading-relaxed">{details}</p>
+  <p class="mt-4 text-offset leading-relaxed" set:html={detailsHtml}></p>
 </li>

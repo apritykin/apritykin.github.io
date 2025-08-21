@@ -10,7 +10,7 @@
             "title": "Senior Engineering Manager, Media Performance Development Engineering",
             "sub_title": "The Walt Disney Company",
             "years": "Apr 2019 - Present",
-            "details": "Led the architecture and development of a enterprise-grade hardware and software platform for agnostic OTT remote device control and automation, supporting scripted testing and operational workflows across major streaming services like Disney+, Hulu, and ESPN+.\nIntegrated advanced computer vision into the automation pipeline to enable platform-agnostic test execution and visual Quality of Experience (QoE) validation using high-fidelity UVC video capture. Delivered a vision-based automation driver that standardizes remote interactions across Roku, FireTV, AppleTV, and more, eliminating reliance on native SDKs or platform-specific tools.\nDeveloped a custom large language model (LLM) to auto-generate test plans and validations, embedded into the orchestration layer to enhance test throughput and reproducibility across a broad device fleet.\nOversaw the Certification Management Program for domestic and international partners, ensuring compliance with Disney's standards and seamless integration across multiple platforms.\nChampioned cross-functional initiatives to scale device automation coverage, unify internal toolchains, and reduce operational friction among partner teams, driving innovation and efficiency across the organization."
+            "details": "Led the architecture and development of a enterprise-grade hardware and software platform for agnostic OTT remote device control and automation, supporting scripted testing and operational workflows across major streaming services like Disney+, Hulu, and ESPN+.\n\nIntegrated advanced computer vision into the automation pipeline to enable platform-agnostic test execution and visual Quality of Experience (QoE) validation using high-fidelity UVC video capture. Delivered a vision-based automation driver that standardizes remote interactions across Roku, FireTV, AppleTV, and more, eliminating reliance on native SDKs or platform-specific tools.\n\nDeveloped a custom large language model (LLM) to auto-generate test plans and validations, embedded into the orchestration layer to enhance test throughput and reproducibility across a broad device fleet.\n\nOversaw the Certification Management Program for domestic and international partners, ensuring compliance with Disney's standards and seamless integration across multiple platforms.\n\nChampioned cross-functional initiatives to scale device automation coverage, unify internal toolchains, and reduce operational friction among partner teams, driving innovation and efficiency across the organization."
         },
         {
             "title": "Engineering Lead, Video Platform",
@@ -22,7 +22,7 @@
             "title": "Engineering Lead, Live Video Platform",
             "sub_title": "Major League Gaming",
             "years": "Jan 2014 - Jun 2016",
-            "details": "Lead the architecture and development of a robust streaming platform for MLG Esport events and content creators. Establish high-quality broadcasts to millions of viewers worldwide, both on-site and remote. Improved platform reliability, scalability and video distribution. Maintained custom hardware encoding solutions for optimal encoding performance and video quality.\nDeveloped automation frameworks for regression testing and CI/CD pipelines. Managed test suites, documented defects, and contributed insights to improve QA and development within an agile team."
+            "details": "Lead the architecture and development of a robust streaming platform for MLG Esport events and content creators. Establish high-quality broadcasts to millions of viewers worldwide, both on-site and remote. Improved platform reliability, scalability and video distribution. Maintained custom hardware encoding solutions for optimal encoding performance and video quality.\n\nDeveloped automation frameworks for regression testing and CI/CD pipelines. Managed test suites, documented defects, and contributed insights to improve QA and development within an agile team."
         },
         {
             "title": "Professional Services Engineer",
@@ -41,13 +41,13 @@
             "title": "Bachelor of Science - Electrical and Computer Engineering Technology",
             "sub_title": "New Jersey Institute of Technology",
             "years": "Sep 2011 - May 2013",
-            "details": "Activities and societies: IEEE Student Chapter Member, Electrical Computer Engineering Club NJIT, HackNY Student Hackathon, Spring 2012, Open Hardware Summit 2012, TEDxNJIT"
+            "details": "Activities and Societies: IEEE Student Chapter Member\nElectrical Computer Engineering Club NJIT\nHackNY Student Hackathon Spring 2012\nOpen Hardware Summit 2012\nTEDxNJIT"
         },
         {
             "title": "Associate of Science - Electrical and Computer Engineering Technology",
             "sub_title": "Middlesex College",
             "years": "Sep 2008 - May 2011",
-            "details": "Activities and societies: Tech-MCC officer, HackNY Student Hackathon, Spring 2011, HackRU Student Hackathon, Spring 2011, Open Hardware Summit 2011"
+            "details": "Activities and societies: Tech-MCC officer\nHackNY Student Hackathon, Spring 2011\n HackRU Student Hackathon Spring 2011\nOpen Hardware Summit 2011"
         }
     ],
     "projects": [
