@@ -50,6 +50,19 @@
             "details": "Activities and societies: Tech-MCC officer\nHackNY Student Hackathon, Spring 2011\n HackRU Student Hackathon Spring 2011\nOpen Hardware Summit 2011"
         }
     ],
+    "certifications": [
+        {
+            "title": "AI Product Manager",
+            "sub_title": "Udacity",
+            "years": "Jun 2025"
+        },
+        {
+            "title": "Certified Scrum Product Owner (CSPO)",
+            "sub_title": "Scrum Alliance",
+            "years": "Jun 2023",
+            "details": "Credential ID: 1797234"
+        }
+    ],
     "projects": [
         {
             "imageUrl": "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=764&auto=format&fit=crop",

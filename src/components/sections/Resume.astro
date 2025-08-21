@@ -1,6 +1,7 @@
 ---
 import Experience from './portfolio/Experience.astro';
 import Education from './portfolio/Education.astro';
+import Cerfiication from './portfolio/Cerfiications.astro';
 ---
 
 <section class="py-8 bg-background">
@@ -9,9 +10,13 @@ import Education from './portfolio/Education.astro';
       <div class="lg:w-1/2 mb-12 lg:mb-0">
         <Experience />
       </div>
-
-      <div class="lg:w-1/2">
+      <div class="lg:w-1/2 flex flex-col gap-0">
         <Education />
+        <Cerfiication />
+      </div>
+    </div>
+  </div>
+</section>
       </div>
     </div>
   </div>
