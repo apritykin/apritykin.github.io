@@ -96,11 +96,11 @@
     "socialLinks": [
         {
             "iconName": "Github",
-            "link": "https://github.com/wasutz/astro-resume-theme"
+            "link": "https://github.com/apritykin"
         },
         {
-            "iconName": "LinkedIn",
-            "link": "https://facebook.com"
+            "iconName": "LinkedIn-in",
+            "link": "https://www.linkedin.com/in/andrewpritykin/"
         }
     ]
 }
