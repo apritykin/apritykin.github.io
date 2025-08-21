@@ -4,7 +4,7 @@ const getCurrentTheme = () => document.documentElement.dataset.theme;
 
 export const getNextTheme = () => {
     const currentTheme = getCurrentTheme();
-    const indexThemeCurrent = themes.indexOf(currentTheme || 'dark');
+    const indexThemeCurrent = themes.indexOf(currentTheme || 'light');
 
     return themes[(indexThemeCurrent + 1) % themes.length];
 };
