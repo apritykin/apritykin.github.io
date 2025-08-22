@@ -2,6 +2,7 @@
   "name": "astro-resume-theme",
   "type": "module",
   "version": "1.0.3",
+  "homepage": "https://www.apritykin.com",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
