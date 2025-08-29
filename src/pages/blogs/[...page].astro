@@ -9,6 +9,11 @@ import Pagination from '../../components/common/Pagination.astro';
 export async function getStaticPaths({ paginate }) {
     const blogs = await getCollection("blogs");
 
+    // Only generate paginated pages if there are blogs
+    if (blogs.length === 0) {
+        return [];
+    }
+
     return paginate(blogs, {
         pageSize: 5,
     });
@@ -22,6 +27,6 @@ const { page } = Astro.props;
 ---
 
 <Layout title={`Blogs`}>
-	<BlogList blogs={page?.data || []} />
+    <BlogList blogs={page.data} />
     <Pagination page={page} />
 </Layout>

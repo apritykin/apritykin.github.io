@@ -6,6 +6,12 @@ import Layout from '../../layouts/Layout.astro';
 
 export const getStaticPaths = async () => {
     const blogs = await getCollection("blogs");
+    
+    // If no blogs exist, don't generate any paths
+    if (blogs.length === 0) {
+        return [];
+    }
+    
     const paths = blogs.map(blog => {
         return {
             params: {

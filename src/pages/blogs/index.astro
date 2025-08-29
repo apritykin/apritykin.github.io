@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import BlogList from '../../components/sections/blog/BlogList.astro';
+import BlogsComingSoon from '../../components/layouts/BlogsComingSoon.astro';
+
+const blogs = await getCollection("blogs");
+const latestBlogs = blogs.sort((a, b) =>
+    new Date(b.data.datetime).getTime() - new Date(a.data.datetime).getTime()
+);
+
+// For the main page, show all blogs if 5 or fewer, or just the first 5 if more
+const displayBlogs = latestBlogs.slice(0, 5);
+---
+
+<Layout title={`Blogs`}>
+    {blogs.length === 0 ? (
+        <BlogsComingSoon />
+    ) : (
+        <BlogList blogs={displayBlogs} />
+    )}
+</Layout>
