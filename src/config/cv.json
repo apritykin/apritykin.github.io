@@ -50,6 +50,14 @@
             "details": "Activities and societies: Tech-MCC officer\nHackNY Student Hackathon, Spring 2011\n HackRU Student Hackathon Spring 2011\nOpen Hardware Summit 2011"
         }
     ],
+    "patents": [
+        {
+            "title": "System and method to remotely control and test media player devices",
+            "sub_title": "Patent No. US 12,666,002 B2",
+            "years": "Date of Patent: June 23, 2026",
+            "details": "The patent describes a framework enabling remote control and testing of set-top boxes (STBs), over-the-top (OTT) devices, and living room media players. The system includes a remote testing application with a user interface, remote testing boxes equipped with IR transmission and video capture capabilities, and centralized service logic. It allows streaming teams to verify applications meet certification requirements without physical device access, eliminating the need to maintain STB inventories or establish complicated VPN connections. The system captures video via HDMI with HDCP bypass, transmits it through WebRTC for real-time viewing, and supports automated testing through scripted test suites with pass/fail analysis and image verification capabilities.\n\n<a href=\"https://patents.google.com/patent/US20250373782A1\" target=\"_blank\" rel=\"noopener noreferrer\">View patent on Google Patents</a>"
+        }
+    ],
     "certifications": [
         {
             "title": "AI Product Manager",
